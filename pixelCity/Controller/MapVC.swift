@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MapVC.swift
 //  pixelCity
 //
 //  Created by Justin Lindsay on 7/29/17.
