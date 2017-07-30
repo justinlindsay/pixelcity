@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		03CE2875A5ED3DD81D47E117 /* Pods_pixelCity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCCD0D5A3F6AD775710FF48D /* Pods_pixelCity.framework */; };
+		F67DD6A51F2D70240036C728 /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67DD6A41F2D70240036C728 /* DroppablePin.swift */; };
 		F69CC60F1F2C437E0054820F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69CC60E1F2C437E0054820F /* AppDelegate.swift */; };
 		F69CC6111F2C437E0054820F /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69CC6101F2C437E0054820F /* MapVC.swift */; };
 		F69CC6141F2C437E0054820F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69CC6121F2C437E0054820F /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 		A9A1BA0BA66897AB2711D047 /* Pods-pixelCity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pixelCity.release.xcconfig"; path = "Pods/Target Support Files/Pods-pixelCity/Pods-pixelCity.release.xcconfig"; sourceTree = "<group>"; };
 		CCCD0D5A3F6AD775710FF48D /* Pods_pixelCity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pixelCity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D606018F65A94BE70D9EE4CE /* Pods-pixelCity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pixelCity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pixelCity/Pods-pixelCity.debug.xcconfig"; sourceTree = "<group>"; };
+		F67DD6A41F2D70240036C728 /* DroppablePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppablePin.swift; sourceTree = "<group>"; };
 		F69CC60B1F2C437E0054820F /* pixelCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pixelCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F69CC60E1F2C437E0054820F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F69CC6101F2C437E0054820F /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 		F69CC6211F2C43A50054820F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F67DD6A41F2D70240036C728 /* DroppablePin.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F69CC6111F2C437E0054820F /* MapVC.swift in Sources */,
+				F67DD6A51F2D70240036C728 /* DroppablePin.swift in Sources */,
 				F69CC60F1F2C437E0054820F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
